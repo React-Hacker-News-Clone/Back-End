@@ -1,0 +1,22 @@
+INSERT INTO topstory (storyid, title, url) VALUES (1, 'Realtek RTL836x series of Ethernet switch ICs has a 8051 hidden inside', 'https://twitter.com/whitequark/status/1175701730819895296');
+INSERT INTO topstory (storyid, title, url) VALUES (2, 'I made a neural net that analyzes privacy policies', 'https://useguard.com/');
+INSERT INTO topstory (storyid, title, url) VALUES (3, 'Four common mistakes in audio development', 'http://atastypixel.com/blog/four-common-mistakes-in-audio-development/');
+INSERT INTO topstory (storyid, title, url) VALUES (4, 'Hacking the Brain', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6429408/');
+INSERT INTO topstory (storyid, title, url) VALUES (5, '	ProtoThreads: Lightweight, Stackless Threads in C', 'http://dunkels.com/adam/pt/');
+INSERT INTO topstory (storyid, title, url) VALUES (6, 'American Emergency Rooms Confront a Crisis of Violence', 'https://www.city-journal.org/violence-in-americas-emergency-rooms');
+INSERT INTO topstory (storyid, title, url) VALUES (7, '	Some WeWork Board Members Seek to Remove Adam Neumann as CEO', 'https://www.wsj.com/articles/some-wework-board-members-seek-to-remove-adam-neumann-as-ceo-11569171188?mod=rsswn');
+INSERT INTO topstory (storyid, title, url) VALUES (8, 'Reverse-engineering precision op amps from a 1969 analog computer', 'https://www.righto.com/2019/09/reverse-engineering-precision-op-amps.html');
+INSERT INTO topstory (storyid, title, url) VALUES (9, 'Using Gooey as a Universal Front End for Any Language or CLI Application', 'https://chriskiehl.com/article/gooey-as-a-universal-frontend');
+INSERT INTO topstory (storyid, title, url) VALUES (10, 'NUMA Optimisations in FreeBSD Helped Netflix Serve 200Gbps of Video / Server [pdf] ', 'https://people.freebsd.org/~gallatin/talks/euro2019.pdf');
+INSERT INTO topstory (storyid, title, url) VALUES (11, 'A Burning B-52 Nearly Caused A Nuclear Catastrophe', 'https://www.thedrive.com/the-war-zone/29945/the-time-when-a-burning-b-52-nearly-caused-a-nuclear-catastrophe-worse-than-chernobyl');
+INSERT INTO topstory (storyid, title, url) VALUES (12, '	A synthetic metabolic network for physicochemical homeostasis', 'https://www.nature.com/articles/s41467-019-12287-2');
+INSERT INTO topstory (storyid, title, url) VALUES (13, 'A Blue Collar Slob’s Introduction to the Rare Oakland Manzanita', 'https://www.youtube.com/watch?v=-tpWrX-XlBQ');
+INSERT INTO topstory (storyid, title, url) VALUES (14, 'Topological Weyl fermion lines and drumhead surface states in room temp magnet', 'https://science.sciencemag.org/content/365/6459/1278');
+INSERT INTO topstory (storyid, title, url) VALUES (15, 'Understanding the working of X11 from the ground up (2017)', 'https://magcius.github.io/xplain/article/index.html');
+INSERT INTO topstory (storyid, title, url) VALUES (16, 'Viable Quantum Supercomputer ', 'https://drive.google.com/file/d/19lv8p1fB47z1pEZVlfDXhop082Lc-kdD/view');
+INSERT INTO topstory (storyid, title, url) VALUES (17, 'Free42: An HP-42S Calculator Simulator (2005)', 'https://github.com/thomasokken/free42');
+INSERT INTO topstory (storyid, title, url) VALUES (18, 'Brains are the last frontier of privacy', 'https://www.axios.com/robotic-brains-data-technology-companies-6ba7269e-1553-4395-a6db-3560fead7e24.html');
+INSERT INTO topstory (storyid, title, url) VALUES (19, 'A Son’s Race to Give His Dying Father Artificial Immortality (2017)', 'https://www.wired.com/story/a-sons-race-to-give-his-dying-father-artificial-immortality/');
+INSERT INTO topstory (storyid, title, url) VALUES (20, 'The ReMarkable Tablet: A Review', 'https://blog.liw.fi/posts/2019/09/22/the_remarkable_tablet_a_review/');
+
+alter sequence hibernate_sequence restart with 25;
