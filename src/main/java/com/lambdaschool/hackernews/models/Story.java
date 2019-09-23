@@ -10,22 +10,24 @@ public class Story {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long storyid;
-    private String storytitle;
-    private String storyurl;
+    private String title;
+    private String url;
 
+    public Story() {
 
+    }
 
     public long getStoryid() {
         return storyid;
     }
 
 
-    public String getStorytitle() {
-        return storytitle;
+    public String getTitle() {
+        return title;
     }
 
-    public String getStoryurl() {
-        return storyurl;
+    public String getUrl() {
+        return url;
     }
 
 }
