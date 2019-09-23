@@ -1,5 +1,7 @@
 package com.lambdaschool.hackernews.controllers;
 
+import com.lambdaschool.hackernews.models.Story;
+import com.lambdaschool.hackernews.services.StoryService;
 import io.swagger.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
